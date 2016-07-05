@@ -4,7 +4,7 @@ def happyBirthdayEmily():
     print ("Happy Birthday, dear Emily!")
     print ("Happy Birthday to you! \n")
     print ("Hope you have a wonderful Birthday!, Emily \n")
-5
+
 happyBirthdayEmily()
 
 def happyBirthdayJack():
