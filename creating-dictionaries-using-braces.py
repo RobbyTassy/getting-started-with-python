@@ -10,6 +10,8 @@ d = dict ([("two", 2), ("one", 1), ("three", 3)])
 
 e = dict ({ "three" : 3, "one" : 1, "two" : 2 })
 
+# Same output for all calls
+
 print (a)
 print (b)
 print (c)
