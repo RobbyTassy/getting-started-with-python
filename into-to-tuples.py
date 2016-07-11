@@ -19,6 +19,7 @@ tup2 = ('abc', 'xyz');
 tup3 = tup1 + tup2
 print (tup3)
 
-# This is how you delete a tuple
+# This is how you delete a tuple.
+# Comes out as undefined when called in console
 
 del tup3
