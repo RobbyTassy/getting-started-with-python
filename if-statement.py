@@ -1,5 +1,4 @@
 # This is a simple if statement
-
 # turns users input into a float (a decimal number)
 weight = float(input("How many pounds does your suitecase weigh? "))
 
