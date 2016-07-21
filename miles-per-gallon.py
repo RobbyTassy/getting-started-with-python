@@ -19,4 +19,5 @@ gallons_used = float (gallons_used)
 # Calculate and print the answer
 
 mpg = miles_driven / gallons_used
-print ("Miles per gallon: ",mpg)
+
+print ("Miles per gallon: %d " % (mpg))
