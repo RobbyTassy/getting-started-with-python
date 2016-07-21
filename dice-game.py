@@ -15,6 +15,6 @@ while roll_again == "yes" or roll_again == "y":
     print (random.randint(min, max))
     print (random.randint(min, max))
 
-    roll_again = input("Roll the die again? y/n ")
+    roll_again = raw_input("Roll the die again? y/n ")
 else:
-    print("Thank you for playing")
+    print("Thank you for playing!")
