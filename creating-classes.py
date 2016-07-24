@@ -13,10 +13,12 @@ class Employee:
     def displayEmployee(self):
         print("Name: ", self.name, ", Salary: ", self.salary)
 
-    # this is going to create the first
-    # object of our Employee class
+    # this is going to create the first object of our Employee class
 
-emp1 = Employee ('Greg', 5000)
+emp1 = Employee ('Greg', 50000)
+emp2 = Employee ('Chris', 70000)
+emp3 = Employee ('Rob', 100000)
 emp1.displayEmployee()
-# emp2.displayEmployee()
-print("Total Employee %d" % Employee.empCount)
+emp2.displayEmployee()
+emp3.displayEmployee()
+emp1.displayCount()
