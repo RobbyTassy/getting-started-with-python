@@ -25,6 +25,11 @@ numbers1 = {1, 3, 5, 7}
 numbers2 = {1, 3}
 
 # issubset method runs parameter within called statement to check if
-# parameter exists inside called array
+# the parameter lives inside called statement
 if numbers2.issubset(numbers1):
     print("Is a subset")
+
+# similarly, numbers 2 is being checked to see if numbers 1
+# lives within in
+if numbers1.issuperset (numbers2):
+    print("Is a superset")
